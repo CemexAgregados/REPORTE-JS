@@ -1,0 +1,176 @@
+/* ============================================================
+   Base
+============================================================ */
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  #root {
+    width: 100%;
+  }
+  
+  .dashboard-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* ============================================================
+     Encabezados
+  ============================================================ */
+  
+  h1 {
+    text-align: center;
+    color: #000;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-top: 0.2rem;
+    margin-bottom: 0;
+    letter-spacing: 0.3px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 0.4rem;
+    margin-bottom: 0;
+  }
+  
+  h3 {
+    text-align: center;
+    color: #000;
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-top: 0.3rem;
+    margin-bottom: 0;
+  }
+  
+  /* ============================================================
+     Logo
+  ============================================================ */
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .logo-cemex {
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* ============================================================
+     Firma
+  ============================================================ */
+  
+  .firma-img {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* ============================================================
+     Secciones
+  ============================================================ */
+  
+  .seccion-header {
+    background-color: #003da5;
+    color: #ffffff;
+    padding: 14px 18px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-bottom: 5px solid #c8102e;
+  }
+  
+  /* ============================================================
+     Tablas
+  ============================================================ */
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+  }
+  
+  thead th {
+    background-color: #d9d9d9;
+    color: #000000;
+    font-weight: 700;
+    border: 1px solid #a6a6a6;
+  }
+  
+  tbody td {
+    border: 1px solid #c0c0c0;
+    color: #000000;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+  }
+  
+  /* ============================================================
+     Tabla Granulometría
+  ============================================================ */
+  
+  .tabla-gran {
+    width: 100%;
+  }
+  
+  .tabla-gran th {
+    background-color: #d9d9d9;
+  }
+  
+  .tabla-gran td {
+    padding: 11px 8px;
+  }
+  
+  /* ============================================================
+     Layout Granulometría
+  ============================================================ */
+  
+  .gran-layout {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 20px;
+    align-items: start;
+  }
+  
+  /* ============================================================
+     Separadores
+  ============================================================ */
+  
+  hr {
+    border: none;
+    border-top: 1px solid #bebebe;
+  }
+  
+  /* ============================================================
+     Responsive
+  ============================================================ */
+  
+  @media (max-width: 900px) {
+    .gran-layout {
+      grid-template-columns: 1fr;
+    }
+  
+    .logo-cemex {
+      width: 200px;
+    }
+  
+    .firma-img {
+      width: 100%;
+    }
+  }
