@@ -27,7 +27,6 @@ function Especificaciones({ material, propiedades }: Props) {
   const filas = Object.entries(specsMaterial).map(
     ([propiedad, spec]: any) => {
       const valores = agrupado[propiedad] || [];
-
       const promedio =
         valores.length > 0
           ? (

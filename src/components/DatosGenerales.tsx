@@ -11,7 +11,7 @@ type Props = {
           Datos Generales
         </div>
   
-        <table>
+        <table className="tabla-datos">
           <thead>
             <tr>
               <th>Campo</th>

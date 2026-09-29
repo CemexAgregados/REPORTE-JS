@@ -156,25 +156,32 @@ function App() {
       <Header material={materialSeleccionado} />
 
       <DatosGenerales material={materialSeleccionado} />
-      
-      console.log("Material:", materialSeleccionado);
-      console.log("Propiedades:", propiedades);
-      console.log("Cantidad:", propiedades.length);
-
+    
       <Especificaciones
         material={materialSeleccionado}
         propiedades={propiedades}
       />
 
       <div className="gran-layout">
-        <Granulometria tamices={tamices} />
-        <TablaGranulometrica tamices={tamices} />
+        <Granulometria tamices={tamices} material={materialSeleccionado} />
+        <TablaGranulometrica tamices={tamices} material={materialSeleccionado} />
       </div>
 
+      {!materialSeleccionado.includes("Mezcla") && (
       <div className="gran-layout">
-        <TendenciaDiaria serie={serie} propiedad={propiedadSeleccionada} />
-        <Distribucion serie={serie} propiedad={propiedadSeleccionada} />
+
+        <TendenciaDiaria
+          serie={serie}
+          propiedad={propiedadSeleccionada}
+        />
+
+        <Distribucion
+          serie={serie}
+          propiedad={propiedadSeleccionada}
+        />
+
       </div>
+)}
 
       <Firmas />
     </div>

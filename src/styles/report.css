@@ -115,6 +115,23 @@ body {
     border: 1px solid #c0c0c0;
     color: #000000;
   }
+
+  .tabla-datos th {
+      text-align: left !important;
+  }
+
+  .tabla-datos td {
+      text-align: left !important;
+  }
+
+  .tabla-datos td:first-child {
+      font-weight: 700;
+      width: 260px;
+  }
+
+  .tabla-datos th:first-child {
+      width: 260px;
+  }
   
   th,
   td {

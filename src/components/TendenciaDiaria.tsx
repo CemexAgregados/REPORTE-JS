@@ -42,7 +42,16 @@ import {
             <LineChart data={datos}>
               <CartesianGrid stroke="#B8B8B8" />
   
-              <XAxis dataKey="fecha" />
+              <XAxis
+                dataKey="fecha"
+                angle={-45}
+                textAnchor="end"
+                height={80}
+                tick={{
+                  fill: "#000000",
+                  fontSize: 12,
+                }}
+              />
   
               <YAxis />
   
