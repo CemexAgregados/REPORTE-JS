@@ -7,6 +7,8 @@ import TablaGranulometrica from "./components/TablaGranulometrica";
 import TendenciaDiaria from "./components/TendenciaDiaria";
 import Distribucion from "./components/Distribucion";
 import Firmas from "./components/Firmas";
+import html2canvas from "html2canvas";
+import jsPDF from "jspdf";
 
 const toISODate = (ms: number) => new Date(ms).toISOString().split("T")[0];
 
@@ -15,6 +17,51 @@ function App() {
   const [materialSeleccionado, setMaterialSeleccionado] = useState("");
   const [fechaInicio, setFechaInicio] = useState("");
   const [fechaFin, setFechaFin] = useState("");
+
+  const exportarPDF = async () => {
+
+    const reporte =
+      document.getElementById("reporte-pdf");
+  
+    if (!reporte) return;
+  
+    const canvas = await html2canvas(
+      reporte,
+      {
+        scale: 2,
+        useCORS: true,
+      }
+    );
+  
+    const imgData =
+      canvas.toDataURL("image/png");
+  
+    const pdf = new jsPDF(
+      "p",
+      "mm",
+      "a4"
+    );
+  
+    const pdfWidth =
+      pdf.internal.pageSize.getWidth();
+  
+    const pdfHeight =
+      (canvas.height * pdfWidth) /
+      canvas.width;
+  
+    pdf.addImage(
+      imgData,
+      "PNG",
+      0,
+      0,
+      pdfWidth,
+      pdfHeight
+    );
+  
+    pdf.save(
+      `Reporte_${materialSeleccionado}.pdf`
+    );
+  };
 
   useEffect(() => {
     fetch("/data/reporte.json")
@@ -84,7 +131,6 @@ function App() {
     (p: any) => p.Propiedad === propiedadSeleccionada
   );
 
-  
 
   const labelStyle = {
     display: "block",
@@ -103,6 +149,7 @@ function App() {
 
   return (
     <div className="dashboard-container">
+  
       <div
         style={{
           marginBottom: "30px",
@@ -113,11 +160,15 @@ function App() {
           flexWrap: "wrap",
         }}
       >
+  
         <div>
           <label style={labelStyle}>Material</label>
+  
           <select
             value={materialSeleccionado}
-            onChange={(e) => setMaterialSeleccionado(e.target.value)}
+            onChange={(e) =>
+              setMaterialSeleccionado(e.target.value)
+            }
             style={inputStyle}
           >
             {materiales.map((m) => (
@@ -127,65 +178,119 @@ function App() {
             ))}
           </select>
         </div>
-
+  
         <div>
-          <label style={labelStyle}>Fecha inicio</label>
+          <label style={labelStyle}>
+            Fecha inicio
+          </label>
+  
           <input
             type="date"
             value={fechaInicioActual}
             min={fechaMin}
             max={fechaMax}
-            onChange={(e) => setFechaInicio(e.target.value)}
-            style={{ ...inputStyle, minWidth: "200px" }}
+            onChange={(e) =>
+              setFechaInicio(e.target.value)
+            }
+            style={{
+              ...inputStyle,
+              minWidth: "200px",
+            }}
           />
         </div>
-
+  
         <div>
-          <label style={labelStyle}>Fecha fin</label>
+          <label style={labelStyle}>
+            Fecha fin
+          </label>
+  
           <input
             type="date"
             value={fechaFinActual}
             min={fechaMin}
             max={fechaMax}
-            onChange={(e) => setFechaFin(e.target.value)}
-            style={{ ...inputStyle, minWidth: "200px" }}
+            onChange={(e) =>
+              setFechaFin(e.target.value)
+            }
+            style={{
+              ...inputStyle,
+              minWidth: "200px",
+            }}
           />
         </div>
+  
+        <div>
+          <button
+            onClick={exportarPDF}
+            style={{
+              padding: "12px 20px",
+              background: "#003DA5",
+              color: "white",
+              border: "none",
+              borderRadius: "6px",
+              cursor: "pointer",
+              fontWeight: 600,
+            }}
+          >
+            Exportar PDF
+          </button>
+        </div>
+  
       </div>
-
-      <Header material={materialSeleccionado} />
-
-      <DatosGenerales material={materialSeleccionado} />
-    
-      <Especificaciones
-        material={materialSeleccionado}
-        propiedades={propiedades}
-      />
-
-      <div className="gran-layout">
-        <Granulometria tamices={tamices} material={materialSeleccionado} />
-        <TablaGranulometrica tamices={tamices} material={materialSeleccionado} />
-      </div>
-
-      {!materialSeleccionado.includes("Mezcla") && (
-      <div className="gran-layout">
-
-        <TendenciaDiaria
-          serie={serie}
-          propiedad={propiedadSeleccionada}
+  
+      <div id="reporte-pdf">
+  
+        <Header
+          material={materialSeleccionado}
         />
-
-        <Distribucion
-          serie={serie}
-          propiedad={propiedadSeleccionada}
+  
+        <DatosGenerales
+          material={materialSeleccionado}
         />
-
+  
+        <Especificaciones
+          material={materialSeleccionado}
+          propiedades={propiedades}
+        />
+  
+        <div className="gran-layout">
+  
+          <Granulometria
+            tamices={tamices}
+            material={materialSeleccionado}
+          />
+  
+          <TablaGranulometrica
+            tamices={tamices}
+            material={materialSeleccionado}
+          />
+  
+        </div>
+  
+        {!materialSeleccionado.includes("Mezcla") && (
+  
+          <div className="gran-layout">
+  
+            <TendenciaDiaria
+              serie={serie}
+              propiedad={propiedadSeleccionada}
+            />
+  
+            <Distribucion
+              serie={serie}
+              propiedad={propiedadSeleccionada}
+            />
+  
+          </div>
+  
+        )}
+  
+        <Firmas />
+  
       </div>
-)}
-
-      <Firmas />
+  
     </div>
   );
-}
-
-export default App;
+  }
+  
+  export default App;
