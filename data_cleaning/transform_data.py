@@ -162,7 +162,7 @@ if __name__ == "__main__":
     # Exportar JSON para React
     # ========================================================
 
-    json_path = BASE_DIR.parent / "public" / "data" / "reporte.json"
+    json_path = BASE_DIR.parent / "public" / "data" / "reporte_py.json"
 
     json_path.parent.mkdir(parents=True, exist_ok=True)
 
