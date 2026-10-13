@@ -9,32 +9,26 @@ import Distribucion from "./components/Distribucion";
 import Firmas from "./components/Firmas";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 const toISODate = (ms: number) => new Date(ms).toISOString().split("T")[0];
 
 function App() {
   const [data, setData] = useState<any[]>([]);
   const [materialSeleccionado, setMaterialSeleccionado] = useState("");
-  const [fechaInicio, setFechaInicio] = useState("");
-  const [fechaFin, setFechaFin] = useState("");
+  const [fechaInicio, setFechaInicio] = useState<Date | null>(null);
+  const [fechaFin, setFechaFin] = useState<Date | null>(null);
 
   const exportarPDF = async () => {
 
-    const reporte =
-      document.getElementById("reporte-pdf");
+    const pagina1 =
+      document.getElementById("pdf-pagina-1");
   
-    if (!reporte) return;
+    const pagina2 =
+      document.getElementById("pdf-pagina-2");
   
-    const canvas = await html2canvas(
-      reporte,
-      {
-        scale: 2,
-        useCORS: true,
-      }
-    );
-  
-    const imgData =
-      canvas.toDataURL("image/png");
+    if (!pagina1 || !pagina2) return;
   
     const pdf = new jsPDF(
       "p",
@@ -42,27 +36,59 @@ function App() {
       "a4"
     );
   
-    const pdfWidth =
+    const capturarPagina = async (
+      elemento: HTMLElement
+    ) => {
+  
+      const canvas = await html2canvas(
+        elemento,
+        {
+          scale: 2,
+          useCORS: true,
+          backgroundColor: "#ffffff",
+        }
+      );
+  
+      return canvas.toDataURL("image/png");
+    };
+  
+    const img1 =
+      await capturarPagina(pagina1);
+  
+    const img2 =
+      await capturarPagina(pagina2);
+  
+    const pageWidth =
       pdf.internal.pageSize.getWidth();
   
-    const pdfHeight =
-      (canvas.height * pdfWidth) /
-      canvas.width;
+    const pageHeight =
+      pdf.internal.pageSize.getHeight();
   
     pdf.addImage(
-      imgData,
+      img1,
       "PNG",
       0,
       0,
-      pdfWidth,
-      pdfHeight
+      pageWidth,
+      pageHeight
+    );
+  
+    pdf.addPage();
+  
+    pdf.addImage(
+      img2,
+      "PNG",
+      0,
+      0,
+      pageWidth,
+      pageHeight
     );
   
     pdf.save(
       `Reporte_${materialSeleccionado}.pdf`
     );
   };
-
+  
   useEffect(() => {
     fetch("/data/reporte.json")
       .then((res) => res.json())
@@ -97,14 +123,26 @@ function App() {
   const fechaMin = fechas.length > 0 ? toISODate(fechas[0]) : "";
   const fechaMax = fechas.length > 0 ? toISODate(fechas[fechas.length - 1]) : "";
 
-  const fechaInicioActual = fechaInicio || fechaMin;
-  const fechaFinActual = fechaFin || fechaMax;
+  const fechaInicioActual = fechaInicio ?? new Date(fechaMin);
+  const fechaFinActual = fechaFin ?? new Date(fechaMax);
 
+  
   const datosMaterial = data.filter((row: any) => {
-    if (row.Material !== materialSeleccionado) return false;
-    if (row.Fecha == null) return true;
-    const fecha = toISODate(row.Fecha);
-    return fecha >= fechaInicioActual && fecha <= fechaFinActual;
+
+    if (row.Material !== materialSeleccionado)
+      return false;
+  
+    if (row.Fecha == null)
+      return true;
+  
+    const fechaRegistro =
+      new Date(row.Fecha);
+  
+    return (
+      fechaRegistro >= fechaInicioActual &&
+      fechaRegistro <= fechaFinActual
+    );
+  
   });
 
   const tamices = datosMaterial.filter(
@@ -140,10 +178,11 @@ function App() {
   } as const;
 
   const inputStyle = {
-    padding: "12px 14px",
-    fontSize: "1.05rem",
+    padding: "6px 8px",
+    fontSize: "1.35rem",
+    fontWeight: 500,
     minWidth: "280px",
-    borderRadius: "6px",
+    borderRadius: "8px",
     border: "1px solid #ccc",
   } as const;
 
@@ -162,7 +201,9 @@ function App() {
       >
   
         <div>
-          <label style={labelStyle}>Material</label>
+          <label style={labelStyle}>
+            Material
+          </label>
   
           <select
             value={materialSeleccionado}
@@ -172,7 +213,10 @@ function App() {
             style={inputStyle}
           >
             {materiales.map((m) => (
-              <option key={m} value={m}>
+              <option
+                key={m}
+                value={m}
+              >
                 {m}
               </option>
             ))}
@@ -184,19 +228,14 @@ function App() {
             Fecha inicio
           </label>
   
-          <input
-            type="date"
-            value={fechaInicioActual}
-            min={fechaMin}
-            max={fechaMax}
-            onChange={(e) =>
-              setFechaInicio(e.target.value)
-            }
-            style={{
-              ...inputStyle,
-              minWidth: "200px",
-            }}
-          />
+          <DatePicker
+          selected={fechaInicioActual}
+          onChange={(date: Date | null) =>
+            setFechaInicio(date)
+          }
+          dateFormat="dd/MM/yyyy"
+          className="date-picker"
+        />
         </div>
   
         <div>
@@ -204,19 +243,15 @@ function App() {
             Fecha fin
           </label>
   
-          <input
-            type="date"
-            value={fechaFinActual}
-            min={fechaMin}
-            max={fechaMax}
-            onChange={(e) =>
-              setFechaFin(e.target.value)
+          <DatePicker
+            selected={fechaFinActual}
+            onChange={(date: Date | null) =>
+              setFechaFin(date)
             }
-            style={{
-              ...inputStyle,
-              minWidth: "200px",
-            }}
+            dateFormat="dd/MM/yyyy"
+            className="date-picker"
           />
+
         </div>
   
         <div>
@@ -238,7 +273,9 @@ function App() {
   
       </div>
   
-      <div id="reporte-pdf">
+      {/* PAGINA 1 */}
+  
+      <div id="pdf-pagina-1">
   
         <Header
           material={materialSeleccionado}
@@ -246,12 +283,20 @@ function App() {
   
         <DatosGenerales
           material={materialSeleccionado}
+          fechaInicio={fechaInicioActual.toLocaleDateString("es-MX")}
+          fechaFin={fechaFinActual.toLocaleDateString("es-MX")}
         />
   
         <Especificaciones
           material={materialSeleccionado}
           propiedades={propiedades}
         />
+  
+      </div>
+  
+      {/* PAGINA 2 */}
+  
+      <div id="pdf-pagina-2">
   
         <div className="gran-layout">
   
@@ -294,3 +339,4 @@ function App() {
   }
   
   export default App;
+  

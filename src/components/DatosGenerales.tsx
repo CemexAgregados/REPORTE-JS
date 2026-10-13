@@ -1,8 +1,10 @@
 type Props = {
     material: string;
+    fechaInicio: string;
+    fechaFin: string;
   };
   
-  function DatosGenerales({ material }: Props) {
+  function DatosGenerales({ material, fechaInicio,fechaFin }: Props) {
     const hoy = new Date().toLocaleDateString("es-MX");
   
     return (
@@ -50,12 +52,12 @@ type Props = {
   
             <tr>
               <td>Fecha Inicial Periodo</td>
-              <td>Últimos 30 días</td>
+              <td>{fechaInicio}</td>
             </tr>
   
             <tr>
               <td>Fecha Final Periodo</td>
-              <td>Actual</td>
+              <td>{fechaFin}</td>
             </tr>
   
             <tr>
