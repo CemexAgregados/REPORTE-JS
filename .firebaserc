@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "cemexappagg"
-  }
+  },
+  "targets": {
+    "cemexappagg": {
+      "hosting": {
+        "app": [
+          "reporte-calidad"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
