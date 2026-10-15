@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site":"reporte-calidad",
     "public": "dist",
     "ignore": [
       "firebase.json",
