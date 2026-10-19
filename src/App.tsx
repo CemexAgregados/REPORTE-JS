@@ -276,12 +276,12 @@ function App() {
 
         {!materialSeleccionado.includes("Mezcla") && (
           <div className="gran-layout">
-            <TendenciaDiaria
+            <TendenciaDiaria (%Humedad)
               serie={serie}
               propiedad={propiedadSeleccionada}
             />
 
-            <Distribucion
+            <Distribucion (%Humedad)
               serie={serie}
               propiedad={propiedadSeleccionada}
             />
