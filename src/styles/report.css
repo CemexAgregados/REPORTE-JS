@@ -311,17 +311,18 @@ tbody tr:nth-child(even) {
 
 .firma-wrapper {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   margin-bottom: 10px;
 }
 
 .firma-img {
-  width: 320px;
+  width: 670px;
   max-width: 100%;
   height: auto;
   object-fit: contain;
   display: block;
+  margin: 0 auto;
 }
 
 .firma-nota {
@@ -415,6 +416,8 @@ hr {
   }
 
   .firma-img {
-    max-width: 240px;
+    min-width: 300px;
+    width: 100%;
+    height: auto;
   }
 }
