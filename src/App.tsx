@@ -35,7 +35,6 @@ function App() {
         const prevMaxWidth = elemento.style.maxWidth;
         const prevBoxShadow = elemento.style.boxShadow;
         const prevBorderRadius = elemento.style.borderRadius;
-
         const prevPadding = elemento.style.padding;
 
         // Fijar dimensiones óptimas de reporte y reducir espacio superior
@@ -110,7 +109,7 @@ function App() {
       setExportando(false);
     }
   };
-  
+
   useEffect(() => {
     fetch("/data/reporte.json")
       .then((res) => res.json())
@@ -148,23 +147,15 @@ function App() {
   const fechaInicioActual = fechaInicio ?? new Date(fechaMin);
   const fechaFinActual = fechaFin ?? new Date(fechaMax);
 
-  
   const datosMaterial = data.filter((row: any) => {
+    if (row.Material !== materialSeleccionado) return false;
+    if (row.Fecha == null) return true;
 
-    if (row.Material !== materialSeleccionado)
-      return false;
-  
-    if (row.Fecha == null)
-      return true;
-  
-    const fechaRegistro =
-      new Date(row.Fecha);
-  
+    const fechaRegistro = new Date(row.Fecha);
     return (
       fechaRegistro >= fechaInicioActual &&
       fechaRegistro <= fechaFinActual
     );
-  
   });
 
   const tamices = datosMaterial.filter(
@@ -191,7 +182,6 @@ function App() {
     (p: any) => p.Propiedad === propiedadSeleccionada
   );
 
-
   return (
     <div className="dashboard-container">
       <div className="filtros-card">
@@ -207,10 +197,7 @@ function App() {
             className="filtro-select"
           >
             {materiales.map((m) => (
-              <option
-                key={m}
-                value={m}
-              >
+              <option key={m} value={m}>
                 {m}
               </option>
             ))}
@@ -256,71 +243,55 @@ function App() {
           </button>
         </div>
       </div>
-  
+
       {/* PAGINA 1 */}
-  
       <div id="pdf-pagina-1">
-  
-        <Header
-          material={materialSeleccionado}
-        />
-  
+        <Header material={materialSeleccionado} />
+
         <DatosGenerales
           material={materialSeleccionado}
           fechaInicio={fechaInicioActual.toLocaleDateString("es-MX")}
           fechaFin={fechaFinActual.toLocaleDateString("es-MX")}
         />
-  
+
         <Especificaciones
           material={materialSeleccionado}
           propiedades={propiedades}
         />
-  
       </div>
-  
+
       {/* PAGINA 2 */}
-  
       <div id="pdf-pagina-2">
-  
         <div className="gran-layout">
-  
           <Granulometria
             tamices={tamices}
             material={materialSeleccionado}
           />
-  
+
           <TablaGranulometrica
             tamices={tamices}
             material={materialSeleccionado}
           />
-  
         </div>
-  
+
         {!materialSeleccionado.includes("Mezcla") && (
-  
           <div className="gran-layout">
-  
             <TendenciaDiaria
               serie={serie}
               propiedad={propiedadSeleccionada}
             />
-  
+
             <Distribucion
               serie={serie}
               propiedad={propiedadSeleccionada}
             />
-  
           </div>
-  
         )}
-  
+
         <Firmas />
-  
       </div>
-  
     </div>
   );
-  }
-  
-  export default App;
-  
+}
+
+export default App;
