@@ -1,0 +1,4769 @@
+[
+    {
+        "Fecha":1785715200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1785715200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1785715200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":80.0
+    },
+    {
+        "Fecha":1785715200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":56.0
+    },
+    {
+        "Fecha":1785715200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.30",
+        "Valor":40.0
+    },
+    {
+        "Fecha":1785715200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.50",
+        "Valor":29.0
+    },
+    {
+        "Fecha":1785715200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":21.0
+    },
+    {
+        "Fecha":1785715200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1785715200000,
+        "Material":"Arena No. 4",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":14.0
+    },
+    {
+        "Fecha":1785715200000,
+        "Material":"Arena No. 4",
+        "Grupo":"M.F.",
+        "Propiedad":"M.F.",
+        "Valor":2.74
+    },
+    {
+        "Fecha":1785715200000,
+        "Material":"Arena No. 4",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.2
+    },
+    {
+        "Fecha":1785715200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1785715200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":88.0
+    },
+    {
+        "Fecha":1785715200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":15.0
+    },
+    {
+        "Fecha":1785715200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":4.0
+    },
+    {
+        "Fecha":1785715200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":2.0
+    },
+    {
+        "Fecha":1785715200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1785715200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":1.2
+    },
+    {
+        "Fecha":1785715200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.8
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":83.5
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":60.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.30",
+        "Valor":41.5
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.50",
+        "Valor":29.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":19.5
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Arena No. 4",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":14.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Arena No. 4",
+        "Grupo":"M.F.",
+        "Propiedad":"M.F.",
+        "Valor":2.665
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Arena No. 4",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.15
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":88.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":15.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":3.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":2.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":1.2
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1\/2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":96.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":26.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":7.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":4.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1 1\/2",
+        "Valor":98.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":37.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":4.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":2.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Grava 40 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":0.9
+    },
+    {
+        "Fecha":1785801600000,
+        "Material":"Grava 40 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.9
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":86.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":62.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.30",
+        "Valor":43.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.50",
+        "Valor":30.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":20.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Arena No. 4",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":15.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Arena No. 4",
+        "Grupo":"M.F.",
+        "Propiedad":"M.F.",
+        "Valor":2.6
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Arena No. 4",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.4
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Densidad",
+        "Propiedad":"Densidad",
+        "Valor":2.71
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Absorción",
+        "Propiedad":"Absorción",
+        "Valor":0.6
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":86.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":9.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":3.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":2.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":1.1
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.5
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1\/2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":96.5
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":33.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":6.5
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":4.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":2.05
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.75
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1 1\/2",
+        "Valor":94.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":33.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":4.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":2.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 40 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":0.5
+    },
+    {
+        "Fecha":1785888000000,
+        "Material":"Grava 40 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.8
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":98.5
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":69.5
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":48.5
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.30",
+        "Valor":35.0
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.50",
+        "Valor":26.0
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":18.5
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Arena No. 4",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":14.0
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Arena No. 4",
+        "Grupo":"M.F.",
+        "Propiedad":"M.F.",
+        "Valor":3.035
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Arena No. 4",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.5
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":87.0
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":9.0
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":2.0
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":2.0
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":0.7
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.7
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1\/2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":95.0
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":16.5
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":4.5
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":3.5
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":1.45
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.65
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1 1\/2",
+        "Valor":95.0
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":33.0
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":8.0
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":6.0
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":0.7
+    },
+    {
+        "Fecha":1785974400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.1
+    },
+    {
+        "Fecha":1786060800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786060800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":99.0
+    },
+    {
+        "Fecha":1786060800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":77.0
+    },
+    {
+        "Fecha":1786060800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":53.0
+    },
+    {
+        "Fecha":1786060800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.30",
+        "Valor":35.0
+    },
+    {
+        "Fecha":1786060800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.50",
+        "Valor":23.0
+    },
+    {
+        "Fecha":1786060800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":14.0
+    },
+    {
+        "Fecha":1786060800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786060800000,
+        "Material":"Arena No. 4",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":12.0
+    },
+    {
+        "Fecha":1786060800000,
+        "Material":"Arena No. 4",
+        "Grupo":"M.F.",
+        "Propiedad":"M.F.",
+        "Valor":2.97
+    },
+    {
+        "Fecha":1786060800000,
+        "Material":"Arena No. 4",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":2.0
+    },
+    {
+        "Fecha":1786060800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1\/2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786060800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":94.0
+    },
+    {
+        "Fecha":1786060800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":23.0
+    },
+    {
+        "Fecha":1786060800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":7.0
+    },
+    {
+        "Fecha":1786060800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":3.0
+    },
+    {
+        "Fecha":1786060800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786060800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":1.3
+    },
+    {
+        "Fecha":1786060800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.8
+    },
+    {
+        "Fecha":1786060800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Peso Volumétrico",
+        "Propiedad":"Suelto",
+        "Valor":1498.0
+    },
+    {
+        "Fecha":1786060800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Peso Volumétrico",
+        "Propiedad":"Compacto",
+        "Valor":1592.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":82.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":57.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.30",
+        "Valor":41.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.50",
+        "Valor":29.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":20.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Arena No. 4",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":14.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Arena No. 4",
+        "Grupo":"M.F.",
+        "Propiedad":"M.F.",
+        "Valor":2.72
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Arena No. 4",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.6
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":83.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":9.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":2.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":2.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.7
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1\/2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":98.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":30.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":3.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":2.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.7
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 60% finos + 40% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 60% finos + 40% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1 1\/2",
+        "Valor":97.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 60% finos + 40% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":85.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 60% finos + 40% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":74.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 60% finos + 40% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":57.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 60% finos + 40% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":39.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 60% finos + 40% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.10",
+        "Valor":26.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 60% finos + 40% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.20",
+        "Valor":18.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 60% finos + 40% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.40",
+        "Valor":14.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 60% finos + 40% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.60",
+        "Valor":11.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 60% finos + 40% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":10.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 60% finos + 40% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.200",
+        "Valor":6.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 60% finos + 40% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 60% finos + 40% gruesos",
+        "Grupo":"Equivalente Arena",
+        "Propiedad":"Equivalente Arena",
+        "Valor":39.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 80% finos + 20% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 80% finos + 20% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1 1\/2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 80% finos + 20% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 80% finos + 20% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":98.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 80% finos + 20% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":67.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 80% finos + 20% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":44.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 80% finos + 20% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.10",
+        "Valor":28.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 80% finos + 20% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.20",
+        "Valor":18.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 80% finos + 20% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.40",
+        "Valor":14.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 80% finos + 20% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.60",
+        "Valor":11.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 80% finos + 20% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":9.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 80% finos + 20% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.200",
+        "Valor":6.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 80% finos + 20% gruesos",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786147200000,
+        "Material":"Mezcla 80% finos + 20% gruesos",
+        "Grupo":"Equivalente Arena",
+        "Propiedad":"Equivalente Arena",
+        "Valor":51.0
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":78.0
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":55.0
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.30",
+        "Valor":39.0
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.50",
+        "Valor":28.0
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":20.0
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Arena No. 4",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":14.0
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Arena No. 4",
+        "Grupo":"M.F.",
+        "Propiedad":"M.F.",
+        "Valor":2.8
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Arena No. 4",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.2
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":89.0
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":9.0
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":2.0
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":2.0
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":0.6
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.7
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1\/2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":98.0
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":30.0
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":4.0
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":3.0
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":1.4
+    },
+    {
+        "Fecha":1786233600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.5
+    },
+    {
+        "Fecha":1786320000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786320000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":90.0
+    },
+    {
+        "Fecha":1786320000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":15.0
+    },
+    {
+        "Fecha":1786320000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":4.0
+    },
+    {
+        "Fecha":1786320000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":3.0
+    },
+    {
+        "Fecha":1786320000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786320000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":1.0
+    },
+    {
+        "Fecha":1786320000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.2
+    },
+    {
+        "Fecha":1786320000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Densidad",
+        "Propiedad":"Densidad",
+        "Valor":2.7
+    },
+    {
+        "Fecha":1786320000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Absorción",
+        "Propiedad":"Absorción",
+        "Valor":1.1
+    },
+    {
+        "Fecha":1786320000000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786320000000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1 1\/2",
+        "Valor":98.0
+    },
+    {
+        "Fecha":1786320000000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":39.0
+    },
+    {
+        "Fecha":1786320000000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":7.0
+    },
+    {
+        "Fecha":1786320000000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":3.0
+    },
+    {
+        "Fecha":1786320000000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786320000000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Densidad",
+        "Propiedad":"Densidad",
+        "Valor":2.71
+    },
+    {
+        "Fecha":1786320000000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Absorción",
+        "Propiedad":"Absorción",
+        "Valor":0.9
+    },
+    {
+        "Fecha":1786406400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786406400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786406400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":77.0
+    },
+    {
+        "Fecha":1786406400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":53.0
+    },
+    {
+        "Fecha":1786406400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.30",
+        "Valor":37.0
+    },
+    {
+        "Fecha":1786406400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.50",
+        "Valor":27.0
+    },
+    {
+        "Fecha":1786406400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":19.0
+    },
+    {
+        "Fecha":1786406400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786406400000,
+        "Material":"Arena No. 4",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":14.0
+    },
+    {
+        "Fecha":1786406400000,
+        "Material":"Arena No. 4",
+        "Grupo":"M.F.",
+        "Propiedad":"M.F.",
+        "Valor":2.87
+    },
+    {
+        "Fecha":1786406400000,
+        "Material":"Arena No. 4",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.6
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":99.5
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":78.5
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":56.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.30",
+        "Valor":40.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.50",
+        "Valor":28.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":19.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Arena No. 4",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":13.5
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Arena No. 4",
+        "Grupo":"M.F.",
+        "Propiedad":"M.F.",
+        "Valor":2.78
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Arena No. 4",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.25
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":84.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":7.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":2.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":2.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":0.6
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.5
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Peso Volumétrico",
+        "Propiedad":"Suelto",
+        "Valor":1484.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Peso Volumétrico",
+        "Propiedad":"Compacto",
+        "Valor":1584.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1\/2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":97.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":18.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":4.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":3.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":1.5
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.6
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1 1\/2",
+        "Valor":91.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":27.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":5.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":3.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 40 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":0.6
+    },
+    {
+        "Fecha":1786492800000,
+        "Material":"Grava 40 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.7
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":82.0
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":58.0
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.30",
+        "Valor":42.0
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.50",
+        "Valor":30.0
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":21.0
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Arena No. 4",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":15.0
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Arena No. 4",
+        "Grupo":"M.F.",
+        "Propiedad":"M.F.",
+        "Valor":2.68
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Arena No. 4",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.3
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":89.5
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":23.5
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":4.5
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":2.5
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":0.75
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.8
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1 1\/2",
+        "Valor":96.0
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":42.0
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":9.0
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":3.0
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Grava 40 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":0.5
+    },
+    {
+        "Fecha":1786579200000,
+        "Material":"Grava 40 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.8
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":99.5
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":78.5
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":54.5
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.30",
+        "Valor":38.5
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.50",
+        "Valor":27.0
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":19.0
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Arena No. 4",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":11.5
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Arena No. 4",
+        "Grupo":"M.F.",
+        "Propiedad":"M.F.",
+        "Valor":2.835
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Arena No. 4",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.05
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":90.0
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":24.5
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":6.0
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":3.5
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":0.85
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.5
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1\/2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":99.0
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":36.0
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":9.0
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":6.0
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":2.6
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.5
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1 1\/2",
+        "Valor":95.0
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":44.0
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":7.0
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":3.0
+    },
+    {
+        "Fecha":1786665600000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786752000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786752000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":92.0
+    },
+    {
+        "Fecha":1786752000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":17.0
+    },
+    {
+        "Fecha":1786752000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":4.0
+    },
+    {
+        "Fecha":1786752000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":3.0
+    },
+    {
+        "Fecha":1786752000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786752000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":1.2
+    },
+    {
+        "Fecha":1786752000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.8
+    },
+    {
+        "Fecha":1786752000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1\/2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786752000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":99.0
+    },
+    {
+        "Fecha":1786752000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":30.0
+    },
+    {
+        "Fecha":1786752000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":7.0
+    },
+    {
+        "Fecha":1786752000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":5.0
+    },
+    {
+        "Fecha":1786752000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786752000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":2.8
+    },
+    {
+        "Fecha":1786752000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.9
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":99.5
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":74.5
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":53.5
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.30",
+        "Valor":39.0
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.50",
+        "Valor":28.0
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":20.0
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Arena No. 4",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":13.0
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Arena No. 4",
+        "Grupo":"M.F.",
+        "Propiedad":"M.F.",
+        "Valor":2.855
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Arena No. 4",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.85
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Densidad",
+        "Propiedad":"Densidad",
+        "Valor":2.71
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Absorción",
+        "Propiedad":"Absorción",
+        "Valor":0.7
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Peso Volumétrico",
+        "Propiedad":"Suelto",
+        "Valor":1710.0
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Peso Volumétrico",
+        "Propiedad":"Compacto",
+        "Valor":1889.0
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":88.0
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":23.5
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":5.5
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":3.0
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":1.05
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.4
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Densidad",
+        "Propiedad":"Densidad",
+        "Valor":2.655
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Absorción",
+        "Propiedad":"Absorción",
+        "Valor":1.2
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1\/2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":98.0
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":22.0
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":6.0
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":5.0
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":2.2
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.3
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1 1\/2",
+        "Valor":99.0
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":53.0
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":12.0
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":5.0
+    },
+    {
+        "Fecha":1786924800000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787011200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787011200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787011200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":77.0
+    },
+    {
+        "Fecha":1787011200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":55.0
+    },
+    {
+        "Fecha":1787011200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.30",
+        "Valor":40.0
+    },
+    {
+        "Fecha":1787011200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.50",
+        "Valor":28.0
+    },
+    {
+        "Fecha":1787011200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":20.0
+    },
+    {
+        "Fecha":1787011200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787011200000,
+        "Material":"Arena No. 4",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":14.0
+    },
+    {
+        "Fecha":1787011200000,
+        "Material":"Arena No. 4",
+        "Grupo":"M.F.",
+        "Propiedad":"M.F.",
+        "Valor":2.81
+    },
+    {
+        "Fecha":1787011200000,
+        "Material":"Arena No. 4",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.5
+    },
+    {
+        "Fecha":1787011200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787011200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":87.0
+    },
+    {
+        "Fecha":1787011200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":31.0
+    },
+    {
+        "Fecha":1787011200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":7.0
+    },
+    {
+        "Fecha":1787011200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":4.0
+    },
+    {
+        "Fecha":1787011200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787011200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":0.6
+    },
+    {
+        "Fecha":1787011200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.9
+    },
+    {
+        "Fecha":1787097600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787097600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":99.0
+    },
+    {
+        "Fecha":1787097600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":72.0
+    },
+    {
+        "Fecha":1787097600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":50.0
+    },
+    {
+        "Fecha":1787097600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.30",
+        "Valor":34.0
+    },
+    {
+        "Fecha":1787097600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.50",
+        "Valor":24.0
+    },
+    {
+        "Fecha":1787097600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":16.0
+    },
+    {
+        "Fecha":1787097600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787097600000,
+        "Material":"Arena No. 4",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":12.0
+    },
+    {
+        "Fecha":1787097600000,
+        "Material":"Arena No. 4",
+        "Grupo":"M.F.",
+        "Propiedad":"M.F.",
+        "Valor":3.05
+    },
+    {
+        "Fecha":1787097600000,
+        "Material":"Arena No. 4",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.3
+    },
+    {
+        "Fecha":1787097600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787097600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":87.5
+    },
+    {
+        "Fecha":1787097600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":21.0
+    },
+    {
+        "Fecha":1787097600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":3.5
+    },
+    {
+        "Fecha":1787097600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":2.0
+    },
+    {
+        "Fecha":1787097600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787097600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":0.8
+    },
+    {
+        "Fecha":1787097600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.1
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":99.0
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":77.0
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":53.5
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.30",
+        "Valor":37.5
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.50",
+        "Valor":26.0
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":17.5
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Arena No. 4",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":12.5
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Arena No. 4",
+        "Grupo":"M.F.",
+        "Propiedad":"M.F.",
+        "Valor":2.88
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Arena No. 4",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.4
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Densidad",
+        "Propiedad":"Densidad",
+        "Valor":2.72
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Absorción",
+        "Propiedad":"Absorción",
+        "Valor":0.6
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":85.5
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":18.5
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":3.0
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":2.0
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":0.7
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.65
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1\/2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":99.0
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":26.0
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":5.0
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":3.0
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":1.6
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.8
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Densidad",
+        "Propiedad":"Densidad",
+        "Valor":2.7
+    },
+    {
+        "Fecha":1787184000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Absorción",
+        "Propiedad":"Absorción",
+        "Valor":1.3
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":99.0
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":73.0
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":51.5
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.30",
+        "Valor":37.0
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.50",
+        "Valor":27.0
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":19.5
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Arena No. 4",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":13.0
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Arena No. 4",
+        "Grupo":"M.F.",
+        "Propiedad":"M.F.",
+        "Valor":2.93
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Arena No. 4",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.45
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":89.5
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":25.0
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":4.0
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":2.5
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":1.15
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.6
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1\/2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":99.0
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":37.0
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":9.0
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":6.0
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1 1\/2",
+        "Valor":96.0
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":52.0
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":8.0
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":2.0
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":0.6
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.7
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Densidad",
+        "Propiedad":"Densidad",
+        "Valor":2.71
+    },
+    {
+        "Fecha":1787270400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Absorción",
+        "Propiedad":"Absorción",
+        "Valor":1.0
+    },
+    {
+        "Fecha":1787356800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787356800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787356800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":78.0
+    },
+    {
+        "Fecha":1787356800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":56.0
+    },
+    {
+        "Fecha":1787356800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.30",
+        "Valor":40.0
+    },
+    {
+        "Fecha":1787356800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.50",
+        "Valor":29.0
+    },
+    {
+        "Fecha":1787356800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":20.0
+    },
+    {
+        "Fecha":1787356800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787356800000,
+        "Material":"Arena No. 4",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":15.0
+    },
+    {
+        "Fecha":1787356800000,
+        "Material":"Arena No. 4",
+        "Grupo":"M.F.",
+        "Propiedad":"M.F.",
+        "Valor":2.76
+    },
+    {
+        "Fecha":1787356800000,
+        "Material":"Arena No. 4",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.1
+    },
+    {
+        "Fecha":1787356800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Densidad",
+        "Propiedad":"Densidad",
+        "Valor":2.74
+    },
+    {
+        "Fecha":1787356800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Absorción",
+        "Propiedad":"Absorción",
+        "Valor":0.8
+    },
+    {
+        "Fecha":1787529600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787529600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":99.0
+    },
+    {
+        "Fecha":1787529600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":73.0
+    },
+    {
+        "Fecha":1787529600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":51.0
+    },
+    {
+        "Fecha":1787529600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.30",
+        "Valor":36.0
+    },
+    {
+        "Fecha":1787529600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.50",
+        "Valor":26.0
+    },
+    {
+        "Fecha":1787529600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":18.0
+    },
+    {
+        "Fecha":1787529600000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787529600000,
+        "Material":"Arena No. 4",
+        "Grupo":"M.F.",
+        "Propiedad":"M.F.",
+        "Valor":2.96
+    },
+    {
+        "Fecha":1787529600000,
+        "Material":"Arena No. 4",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.9
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":99.5
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":78.5
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":57.5
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.30",
+        "Valor":42.0
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.50",
+        "Valor":29.5
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":20.0
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Arena No. 4",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":15.0
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Arena No. 4",
+        "Grupo":"M.F.",
+        "Propiedad":"M.F.",
+        "Valor":2.73
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Arena No. 4",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.35
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Densidad",
+        "Propiedad":"Densidad",
+        "Valor":2.72
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Arena No. 4",
+        "Grupo":"Absorción",
+        "Propiedad":"Absorción",
+        "Valor":0.8
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":89.0
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":23.0
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":3.5
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":2.5
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":1.15
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.75
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Densidad",
+        "Propiedad":"Densidad",
+        "Valor":2.71
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Absorción",
+        "Propiedad":"Absorción",
+        "Valor":1.0
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1\/2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":98.0
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":28.0
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":8.0
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":6.0
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":3.3
+    },
+    {
+        "Fecha":1787616000000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.2
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":99.5
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":74.5
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":52.5
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.30",
+        "Valor":38.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.50",
+        "Valor":26.5
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":18.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Arena No. 4",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":13.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Arena No. 4",
+        "Grupo":"M.F.",
+        "Propiedad":"M.F.",
+        "Valor":2.905
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Arena No. 4",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.4
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Densidad",
+        "Propiedad":"Densidad",
+        "Valor":2.73
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Absorción",
+        "Propiedad":"Absorción",
+        "Valor":0.7
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":85.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":24.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":5.5
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":3.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":0.9
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.7
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1\/2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":97.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":24.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":7.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":5.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":2.4
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.8
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1 1\/2",
+        "Valor":96.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":43.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":8.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":4.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":0.6
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.5
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Peso Volumétrico",
+        "Propiedad":"Suelto",
+        "Valor":1393.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Peso Volumétrico",
+        "Propiedad":"Compacto",
+        "Valor":1520.0
+    },
+    {
+        "Fecha":1787702400000,
+        "Material":"Grava 40 mm",
+        "Grupo":"Coef. De Forma",
+        "Propiedad":"Coef. De Forma",
+        "Valor":0.27
+    },
+    {
+        "Fecha":1787788800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787788800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787788800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":81.0
+    },
+    {
+        "Fecha":1787788800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":61.0
+    },
+    {
+        "Fecha":1787788800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.30",
+        "Valor":45.0
+    },
+    {
+        "Fecha":1787788800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.50",
+        "Valor":33.0
+    },
+    {
+        "Fecha":1787788800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":23.0
+    },
+    {
+        "Fecha":1787788800000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787788800000,
+        "Material":"Arena No. 4",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":15.0
+    },
+    {
+        "Fecha":1787788800000,
+        "Material":"Arena No. 4",
+        "Grupo":"M.F.",
+        "Propiedad":"M.F.",
+        "Valor":2.57
+    },
+    {
+        "Fecha":1787788800000,
+        "Material":"Arena No. 4",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.2
+    },
+    {
+        "Fecha":1787788800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787788800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":89.0
+    },
+    {
+        "Fecha":1787788800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":15.0
+    },
+    {
+        "Fecha":1787788800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":4.0
+    },
+    {
+        "Fecha":1787788800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":3.0
+    },
+    {
+        "Fecha":1787788800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787788800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":0.9
+    },
+    {
+        "Fecha":1787788800000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.3
+    },
+    {
+        "Fecha":1787875200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787875200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787875200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":81.0
+    },
+    {
+        "Fecha":1787875200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":62.0
+    },
+    {
+        "Fecha":1787875200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.30",
+        "Valor":46.0
+    },
+    {
+        "Fecha":1787875200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.50",
+        "Valor":34.0
+    },
+    {
+        "Fecha":1787875200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":24.0
+    },
+    {
+        "Fecha":1787875200000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787875200000,
+        "Material":"Arena No. 4",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":15.0
+    },
+    {
+        "Fecha":1787875200000,
+        "Material":"Arena No. 4",
+        "Grupo":"M.F.",
+        "Propiedad":"M.F.",
+        "Valor":2.54
+    },
+    {
+        "Fecha":1787875200000,
+        "Material":"Arena No. 4",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.0
+    },
+    {
+        "Fecha":1787875200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787875200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":87.0
+    },
+    {
+        "Fecha":1787875200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":10.0
+    },
+    {
+        "Fecha":1787875200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":3.0
+    },
+    {
+        "Fecha":1787875200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":3.0
+    },
+    {
+        "Fecha":1787875200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787875200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":0.7
+    },
+    {
+        "Fecha":1787875200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.5
+    },
+    {
+        "Fecha":1787875200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Densidad",
+        "Propiedad":"Densidad",
+        "Valor":2.68
+    },
+    {
+        "Fecha":1787875200000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Absorción",
+        "Propiedad":"Absorción",
+        "Valor":0.9
+    },
+    {
+        "Fecha":1787961600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787961600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":88.5
+    },
+    {
+        "Fecha":1787961600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":22.5
+    },
+    {
+        "Fecha":1787961600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":3.5
+    },
+    {
+        "Fecha":1787961600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":3.0
+    },
+    {
+        "Fecha":1787961600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787961600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":0.95
+    },
+    {
+        "Fecha":1787961600000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.55
+    },
+    {
+        "Fecha":1787961600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1\/2",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1787961600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":97.0
+    },
+    {
+        "Fecha":1787961600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":16.0
+    },
+    {
+        "Fecha":1787961600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":4.0
+    },
+    {
+        "Fecha":1787961600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":3.0
+    },
+    {
+        "Fecha":1787961600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1787961600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":1.6
+    },
+    {
+        "Fecha":1787961600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.6
+    },
+    {
+        "Fecha":1787961600000,
+        "Material":"Grava 10 mm",
+        "Grupo":"Coef. De Forma",
+        "Propiedad":"Coef. De Forma",
+        "Valor":0.27
+    },
+    {
+        "Fecha":1788134400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1788134400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":99.0
+    },
+    {
+        "Fecha":1788134400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":73.5
+    },
+    {
+        "Fecha":1788134400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.16",
+        "Valor":50.5
+    },
+    {
+        "Fecha":1788134400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.30",
+        "Valor":34.5
+    },
+    {
+        "Fecha":1788134400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.50",
+        "Valor":24.0
+    },
+    {
+        "Fecha":1788134400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.100",
+        "Valor":16.0
+    },
+    {
+        "Fecha":1788134400000,
+        "Material":"Arena No. 4",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1788134400000,
+        "Material":"Arena No. 4",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":11.3
+    },
+    {
+        "Fecha":1788134400000,
+        "Material":"Arena No. 4",
+        "Grupo":"M.F.",
+        "Propiedad":"M.F.",
+        "Valor":2.97
+    },
+    {
+        "Fecha":1788134400000,
+        "Material":"Arena No. 4",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":1.35
+    },
+    {
+        "Fecha":1788134400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"1",
+        "Valor":100.0
+    },
+    {
+        "Fecha":1788134400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/4",
+        "Valor":88.5
+    },
+    {
+        "Fecha":1788134400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"3\/8",
+        "Valor":19.0
+    },
+    {
+        "Fecha":1788134400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.4",
+        "Valor":3.0
+    },
+    {
+        "Fecha":1788134400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"No.8",
+        "Valor":2.5
+    },
+    {
+        "Fecha":1788134400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Granulometría % Pasante",
+        "Propiedad":"Ch",
+        "Valor":0.0
+    },
+    {
+        "Fecha":1788134400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%PXL",
+        "Propiedad":"%PXL",
+        "Valor":0.85
+    },
+    {
+        "Fecha":1788134400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"%H",
+        "Propiedad":"%H",
+        "Valor":0.65
+    },
+    {
+        "Fecha":1788134400000,
+        "Material":"Grava 20 mm",
+        "Grupo":"Coef. De Forma",
+        "Propiedad":"Coef. De Forma",
+        "Valor":0.28
+    }
+]
