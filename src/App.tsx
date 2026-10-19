@@ -20,6 +20,7 @@ function App() {
   const [fechaInicio, setFechaInicio] = useState<Date | null>(null);
   const [fechaFin, setFechaFin] = useState<Date | null>(null);
   const [exportando, setExportando] = useState(false);
+  const [propiedadManual, setPropiedadManual] = useState("");
 
   const exportarPDF = async () => {
     const pagina1 = document.getElementById("pdf-pagina-1");
@@ -176,7 +177,12 @@ function App() {
     ...new Set(propiedades.map((p: any) => p.Propiedad)),
   ].sort();
 
-  const propiedadSeleccionada = propiedadesUnicas[0];
+  const propiedadSeleccionada =
+    propiedadManual && propiedadesUnicas.includes(propiedadManual)
+      ? propiedadManual
+      : propiedadesUnicas.find((p) => p === "%H") ||
+        propiedadesUnicas[0] ||
+        "";
 
   const serie = propiedades.filter(
     (p: any) => p.Propiedad === propiedadSeleccionada
@@ -275,17 +281,39 @@ function App() {
         </div>
 
         {!materialSeleccionado.includes("Mezcla") && (
-          <div className="gran-layout">
-            <TendenciaDiaria (%Humedad)
-              serie={serie}
-              propiedad={propiedadSeleccionada}
-            />
+          <>
+            {!exportando && propiedadesUnicas.length > 0 && (
+              <div className="propiedades-selector-container">
+                <span className="propiedades-selector-label">
+                  Graficar propiedad:
+                </span>
+                <div className="propiedades-pills">
+                  {propiedadesUnicas.map((prop) => (
+                    <button
+                      key={prop}
+                      type="button"
+                      className={`propiedad-pill ${prop === propiedadSeleccionada ? "activo" : ""}`}
+                      onClick={() => setPropiedadManual(prop)}
+                    >
+                      {prop}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
 
-            <Distribucion (%Humedad)
-              serie={serie}
-              propiedad={propiedadSeleccionada}
-            />
-          </div>
+            <div className="gran-layout">
+              <TendenciaDiaria
+                serie={serie}
+                propiedad={propiedadSeleccionada}
+              />
+
+              <Distribucion
+                serie={serie}
+                propiedad={propiedadSeleccionada}
+              />
+            </div>
+          </>
         )}
 
         <Firmas />

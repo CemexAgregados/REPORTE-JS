@@ -34,7 +34,7 @@ import {
     return (
       <div>
         <div className="seccion-header">
-          Tendencia Diaria
+          Tendencia Diaria {propiedad ? `(${propiedad})` : ""}
         </div>
   
         <div className="chart-wrapper-tendencia">

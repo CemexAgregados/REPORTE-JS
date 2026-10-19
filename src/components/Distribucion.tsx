@@ -16,7 +16,7 @@ function Distribucion({
   return (
     <div>
       <div className="seccion-header">
-        Distribución
+        Distribución {propiedad ? `(${propiedad})` : ""}
       </div>
 
       <div className="chart-wrapper">
