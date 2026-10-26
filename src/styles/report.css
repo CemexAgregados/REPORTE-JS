@@ -503,6 +503,16 @@ hr {
   width: 1000px !important;
   max-width: 1000px !important;
   min-width: 1000px !important;
+  overflow: visible !important;
+}
+
+body.generando-pdf,
+html.generando-pdf,
+.generando-pdf .dashboard-container {
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  max-width: none !important;
+  width: 1040px !important;
 }
 
 .exportando-pdf .gran-layout {

@@ -29,6 +29,8 @@ function App() {
 
     try {
       setExportando(true);
+      document.body.classList.add("generando-pdf");
+      document.documentElement.classList.add("generando-pdf");
 
       const capturarPagina = async (elemento: HTMLElement) => {
         // Guardar estilos inline previos
@@ -49,7 +51,7 @@ function App() {
         elemento.style.padding = "6px 20px 20px 20px";
 
         // Retardo para sincronización de SVG de recharts y layout a 1000px
-        await new Promise((resolve) => setTimeout(resolve, 250));
+        await new Promise((resolve) => setTimeout(resolve, 300));
 
         const canvas = await html2canvas(elemento, {
           scale: 2,
@@ -58,6 +60,9 @@ function App() {
           logging: false,
           width: 1000,
           windowWidth: 1000,
+          scrollX: 0,
+          scrollY: 0,
+          x: 0,
         });
 
         // Restaurar estado original
@@ -113,6 +118,8 @@ function App() {
     } catch (error) {
       console.error("Error al exportar PDF:", error);
     } finally {
+      document.body.classList.remove("generando-pdf");
+      document.documentElement.classList.remove("generando-pdf");
       setExportando(false);
     }
   };
