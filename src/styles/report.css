@@ -411,7 +411,7 @@ hr {
 ============================================================ */
 
 @media (max-width: 900px) {
-  .gran-layout {
+  :not(.exportando-pdf) .gran-layout {
     grid-template-columns: 1fr;
     gap: 18px;
   }
@@ -422,8 +422,8 @@ hr {
     padding: 12px 8px;
   }
 
-  #pdf-pagina-1,
-  #pdf-pagina-2 {
+  :not(.exportando-pdf)#pdf-pagina-1,
+  :not(.exportando-pdf)#pdf-pagina-2 {
     padding: 16px 12px;
     border-radius: 6px;
     margin-bottom: 16px;
@@ -454,20 +454,20 @@ hr {
     height: 60px;
   }
 
-  .chart-wrapper {
+  :not(.exportando-pdf) .chart-wrapper {
     height: 330px !important;
   }
 
-  .chart-wrapper-tendencia {
+  :not(.exportando-pdf) .chart-wrapper-tendencia {
     height: 300px !important;
   }
 
-  .chart-wrapper-tendencia-full {
+  :not(.exportando-pdf) .chart-wrapper-tendencia-full {
     height: 320px !important;
   }
 
-  th,
-  td {
+  :not(.exportando-pdf) th,
+  :not(.exportando-pdf) td {
     padding: 6px 8px;
     font-size: 0.8rem;
   }
@@ -496,4 +496,35 @@ hr {
 
 .date-picker-range {
   cursor: pointer;
+}
+
+/* Estilos forzados durante la exportación a PDF para consistencia en iOS / móviles */
+.exportando-pdf {
+  width: 1000px !important;
+  max-width: 1000px !important;
+  min-width: 1000px !important;
+}
+
+.exportando-pdf .gran-layout {
+  display: grid !important;
+  grid-template-columns: 1.3fr 1fr !important;
+  gap: 20px !important;
+}
+
+.exportando-pdf .chart-wrapper {
+  height: 440px !important;
+}
+
+.exportando-pdf .chart-wrapper-tendencia-full {
+  height: 420px !important;
+}
+
+.exportando-pdf table {
+  font-size: 0.95rem !important;
+}
+
+.exportando-pdf th,
+.exportando-pdf td {
+  padding: 9px 12px !important;
+  font-size: 0.95rem !important;
 }

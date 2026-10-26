@@ -31,33 +31,40 @@ function App() {
       setExportando(true);
 
       const capturarPagina = async (elemento: HTMLElement) => {
+        // Guardar estilos inline previos
         const prevWidth = elemento.style.width;
         const prevMaxWidth = elemento.style.maxWidth;
+        const prevMinWidth = elemento.style.minWidth;
         const prevBoxShadow = elemento.style.boxShadow;
         const prevBorderRadius = elemento.style.borderRadius;
         const prevPadding = elemento.style.padding;
 
-        // Fijar dimensiones óptimas de reporte y reducir espacio superior
+        // Fijar dimensiones óptimas de reporte y aplicar clase de exportación
+        elemento.classList.add("exportando-pdf");
         elemento.style.width = "1000px";
         elemento.style.maxWidth = "1000px";
+        elemento.style.minWidth = "1000px";
         elemento.style.boxShadow = "none";
         elemento.style.borderRadius = "0";
         elemento.style.padding = "6px 20px 20px 20px";
 
-        // Pequeño retardo para que los elementos y gráficas se sincronicen al ancho de 1000px
-        await new Promise((resolve) => setTimeout(resolve, 100));
+        // Retardo para sincronización de SVG de recharts y layout a 1000px
+        await new Promise((resolve) => setTimeout(resolve, 250));
 
         const canvas = await html2canvas(elemento, {
-          scale: 2.5,
+          scale: 2,
           useCORS: true,
           backgroundColor: "#ffffff",
           logging: false,
+          width: 1000,
           windowWidth: 1000,
         });
 
-        // Restaurar estilos responsivos del elemento
+        // Restaurar estado original
+        elemento.classList.remove("exportando-pdf");
         elemento.style.width = prevWidth;
         elemento.style.maxWidth = prevMaxWidth;
+        elemento.style.minWidth = prevMinWidth;
         elemento.style.boxShadow = prevBoxShadow;
         elemento.style.borderRadius = prevBorderRadius;
         elemento.style.padding = prevPadding;
@@ -270,7 +277,7 @@ function App() {
       </div>
 
       {/* PAGINA 1 */}
-      <div id="pdf-pagina-1">
+      <div id="pdf-pagina-1" className={exportando ? "exportando-pdf" : ""}>
         <Header material={materialSeleccionado} />
 
         <DatosGenerales
@@ -286,7 +293,7 @@ function App() {
       </div>
 
       {/* PAGINA 2 */}
-      <div id="pdf-pagina-2">
+      <div id="pdf-pagina-2" className={exportando ? "exportando-pdf" : ""}>
         <div className="gran-layout">
           <Granulometria
             tamices={tamices}
