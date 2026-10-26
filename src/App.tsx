@@ -5,7 +5,6 @@ import Especificaciones from "./components/Especificaciones";
 import Granulometria from "./components/Granulometria";
 import TablaGranulometrica from "./components/TablaGranulometrica";
 import TendenciaDiaria from "./components/TendenciaDiaria";
-import Distribucion from "./components/Distribucion";
 import Firmas from "./components/Firmas";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
@@ -20,7 +19,7 @@ function App() {
   const [fechaInicio, setFechaInicio] = useState<Date | null>(null);
   const [fechaFin, setFechaFin] = useState<Date | null>(null);
   const [exportando, setExportando] = useState(false);
-  const [propiedadManual, setPropiedadManual] = useState("");
+  const [propiedadesSeleccionadas, setPropiedadesSeleccionadas] = useState<string[]>([]);
 
   const exportarPDF = async () => {
     const pagina1 = document.getElementById("pdf-pagina-1");
@@ -148,6 +147,12 @@ function App() {
   const fechaInicioActual = fechaInicio ?? new Date(fechaMin);
   const fechaFinActual = fechaFin ?? new Date(fechaMax);
 
+  const onChangeRangoFechas = (dates: [Date | null, Date | null]) => {
+    const [start, end] = dates;
+    setFechaInicio(start);
+    setFechaFin(end);
+  };
+
   const datosMaterial = data.filter((row: any) => {
     if (row.Material !== materialSeleccionado) return false;
     if (row.Fecha == null) return true;
@@ -177,16 +182,42 @@ function App() {
     ...new Set(propiedades.map((p: any) => p.Propiedad)),
   ].sort();
 
-  const propiedadSeleccionada =
-    propiedadManual && propiedadesUnicas.includes(propiedadManual)
-      ? propiedadManual
-      : propiedadesUnicas.find((p) => p === "%H") ||
-        propiedadesUnicas[0] ||
-        "";
+  // Determinar las propiedades activas (máximo 2)
+  const propiedadesActivas: string[] =
+    propiedadesSeleccionadas.length > 0
+      ? propiedadesSeleccionadas.filter((p) => propiedadesUnicas.includes(p))
+      : propiedadesUnicas.includes("%H")
+        ? ["%H"]
+        : propiedadesUnicas.length > 0
+          ? [propiedadesUnicas[0]]
+          : [];
 
-  const serie = propiedades.filter(
-    (p: any) => p.Propiedad === propiedadSeleccionada
-  );
+  // Construir las series para las propiedades seleccionadas
+  const seriesMultiples = propiedadesActivas.map((prop) => ({
+    nombre: prop,
+    datos: propiedades
+      .filter((p: any) => p.Propiedad === prop)
+      .map((r: any) => ({
+        fecha: new Date(r.Fecha).toLocaleDateString("es-MX"),
+        valor: Number(r.Valor),
+      })),
+  }));
+
+  const togglePropiedad = (prop: string) => {
+    setPropiedadesSeleccionadas((prev) => {
+      if (prev.includes(prop)) {
+        // Deseleccionar: no permitir 0 seleccionadas
+        if (prev.length <= 1) return prev;
+        return prev.filter((p) => p !== prop);
+      }
+      // Seleccionar: máximo 2
+      if (prev.length >= 2) {
+        // Reemplaza la más antigua
+        return [prev[1], prop];
+      }
+      return [...prev, prop];
+    });
+  };
 
   return (
     <div className="dashboard-container">
@@ -210,31 +241,19 @@ function App() {
           </select>
         </div>
 
-        <div className="filtro-grupo">
+        <div className="filtro-grupo filtro-rango-fechas">
           <label className="filtro-label">
-            Fecha inicio
+            Rango de fechas (Inicio - Fin)
           </label>
           <DatePicker
-            selected={fechaInicioActual}
-            onChange={(date: Date | null) =>
-              setFechaInicio(date)
-            }
+            selectsRange={true}
+            startDate={fechaInicioActual}
+            endDate={fechaFin ? fechaFinActual : null}
+            onChange={onChangeRangoFechas}
             dateFormat="dd/MM/yyyy"
-            className="date-picker"
-          />
-        </div>
-
-        <div className="filtro-grupo">
-          <label className="filtro-label">
-            Fecha fin
-          </label>
-          <DatePicker
-            selected={fechaFinActual}
-            onChange={(date: Date | null) =>
-              setFechaFin(date)
-            }
-            dateFormat="dd/MM/yyyy"
-            className="date-picker"
+            className="date-picker date-picker-range"
+            placeholderText="Seleccionar rango de fechas"
+            isClearable={false}
           />
         </div>
 
@@ -285,15 +304,15 @@ function App() {
             {!exportando && propiedadesUnicas.length > 0 && (
               <div className="propiedades-selector-container">
                 <span className="propiedades-selector-label">
-                  Graficar propiedad:
+                  Graficar propiedades (máx. 2):
                 </span>
                 <div className="propiedades-pills">
                   {propiedadesUnicas.map((prop) => (
                     <button
                       key={prop}
                       type="button"
-                      className={`propiedad-pill ${prop === propiedadSeleccionada ? "activo" : ""}`}
-                      onClick={() => setPropiedadManual(prop)}
+                      className={`propiedad-pill ${propiedadesActivas.includes(prop) ? "activo" : ""}`}
+                      onClick={() => togglePropiedad(prop)}
                     >
                       {prop}
                     </button>
@@ -302,17 +321,9 @@ function App() {
               </div>
             )}
 
-            <div className="gran-layout">
-              <TendenciaDiaria
-                serie={serie}
-                propiedad={propiedadSeleccionada}
-              />
-
-              <Distribucion
-                serie={serie}
-                propiedad={propiedadSeleccionada}
-              />
-            </div>
+            <TendenciaDiaria
+              series={seriesMultiples}
+            />
           </>
         )}
 

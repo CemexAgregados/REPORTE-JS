@@ -300,6 +300,12 @@ tbody tr:nth-child(even) {
   min-width: 0;
 }
 
+.chart-wrapper-tendencia-full {
+  height: 420px;
+  width: 100%;
+  min-width: 0;
+}
+
 /* ============================================================
    Firma y Pie de Página
 ============================================================ */
@@ -456,6 +462,10 @@ hr {
     height: 300px !important;
   }
 
+  .chart-wrapper-tendencia-full {
+    height: 320px !important;
+  }
+
   th,
   td {
     padding: 6px 8px;
@@ -477,4 +487,13 @@ hr {
     width: 100%;
     height: auto;
   }
+}
+/* Rango de fechas estilo aerolínea */
+.filtro-rango-fechas {
+  flex: 12rem;
+  min-width: 250px;
+}
+
+.date-picker-range {
+  cursor: pointer;
 }
