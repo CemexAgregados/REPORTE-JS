@@ -4,6 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "actualizar-datos": "tsx data_cleaning/transform.ts",
+    "predev": "npm run actualizar-datos",
+    "prebuild": "npm run actualizar-datos",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",

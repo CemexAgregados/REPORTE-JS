@@ -1,15 +1,20 @@
 /**
- * transform_promedio.ts
+ * transform.ts
  *
  * Transformación de la hoja "Promedio" del archivo real
  * de calidad Cerro Jardín a formato largo (tidy)
  * para consumo del dashboard.
  *
- * Toma el Excel más reciente de la carpeta de OneDrive, genera
- * public/data/reporte.json y termina.
+ * Busca automáticamente el archivo Excel más reciente en:
+ * 1. Variable de entorno CARPETA_EXCEL (si existe)
+ * 2. Carpeta de OneDrive del usuario actual
+ * 3. Carpeta local data_cleaning/
  *
- * Dependencias: npm i xlsx   |   npm i -D typescript tsx @types/node
- * Ejecutar:     npx tsx scripts/transform_promedio.ts
+ * Si no encuentra un nuevo Excel pero ya existe reporte.json,
+ * conserva los datos existentes sin interrumpir la ejecución.
+ *
+ * Dependencias: npm i xlsx | npm i -D typescript tsx @types/node
+ * Ejecutar:     npx tsx data_cleaning/transform.ts
  */
 
 import * as fs from "node:fs";
@@ -18,13 +23,6 @@ import { fileURLToPath } from "node:url";
 import XLSX from "xlsx";
 
 const BASE_DIR = path.dirname(fileURLToPath(import.meta.url));
-
-// ============================================================
-// Configuración
-// ============================================================
-
-const CARPETA_ONEDRIVE =
-  "C:\\Users\\E-RQMORALES\\OneDrive - CEMEX\\Calidad Agregados Cerro Jardín - 2026 CEJ";
 
 // ============================================================
 // Tipos
@@ -80,7 +78,7 @@ export function limpiarPropiedad(propRaw: unknown, grupo: string): string {
 }
 
 // ============================================================
-// Utilidades (equivalentes a lo que hace pandas internamente)
+// Utilidades
 // ============================================================
 
 const NA_STRINGS = new Set([
@@ -91,7 +89,7 @@ function esVacio(c: Cell): boolean {
   return c === null || c === undefined || (typeof c === "string" && NA_STRINGS.has(c.trim()));
 }
 
-/** Rellena celdas combinadas en las filas de encabezado (como pandas.read_excel con header=[...]). */
+/** Rellena celdas combinadas en las filas de encabezado */
 function fillMiHeader(row: Cell[], controlRow: boolean[]): void {
   let last: Cell = row[0];
   for (let i = 1; i < row.length; i++) {
@@ -136,7 +134,7 @@ export function wideToLongPromedio(
   // Se lee como buffer para evitar bloqueos si el archivo está abierto en Excel
   const wb = XLSX.read(fs.readFileSync(filePath), { type: "buffer" });
   const ws = wb.Sheets[sheetName];
-  if (!ws) throw new Error(`Hoja "${sheetName}" no encontrada`);
+  if (!ws) throw new Error(`Hoja "${sheetName}" no encontrada en ${filePath}`);
 
   const ref = XLSX.utils.decode_range(ws["!ref"] ?? "A1");
   const data = XLSX.utils.sheet_to_json<Cell[]>(ws, {
@@ -157,7 +155,7 @@ export function wideToLongPromedio(
     fillMiHeader(h, controlRow);
   }
 
-  // Columnas como tuplas (material, grupo, propiedad); vacíos -> "Unnamed: i_level_n"
+  // Columnas como tuplas (material, grupo, propiedad)
   const columns: [string, string, string][] = [];
   for (let c = 0; c < ncols; c++) {
     const t = header.map((h, lvl) => {
@@ -249,18 +247,32 @@ export function reporteMaterial(
 }
 
 // ============================================================
-// Excel más reciente de la carpeta
+// Búsqueda del Excel más reciente (dinámica y agnóstica)
 // ============================================================
 
-function excelMasReciente(carpeta: string): string {
-  const archivos = fs
-    .readdirSync(carpeta)
-    .filter((f) => f.toLowerCase().endsWith(".xlsx") && !f.startsWith("~$"))
-    .map((f) => ({ f, t: fs.statSync(path.join(carpeta, f)).mtimeMs }))
-    .sort((a, b) => b.t - a.t);
+function obtenerArchivoMasReciente(carpetasCandidatas: string[]): string | null {
+  for (const carpeta of carpetasCandidatas) {
+    if (!carpeta || !fs.existsSync(carpeta)) continue;
 
-  if (archivos.length === 0) throw new Error(`No hay .xlsx en ${carpeta}`);
-  return path.join(carpeta, archivos[0].f);
+    try {
+      const archivos = fs
+        .readdirSync(carpeta)
+        .filter((f) => f.toLowerCase().endsWith(".xlsx") && !f.startsWith("~$"))
+        .map((f) => ({
+          ruta: path.join(carpeta, f),
+          mtime: fs.statSync(path.join(carpeta, f)).mtimeMs,
+        }))
+        .sort((a, b) => b.mtime - a.mtime);
+
+      if (archivos.length > 0) {
+        return archivos[0].ruta;
+      }
+    } catch {
+      // Ignora errores de permiso o bloqueo y prueba la siguiente carpeta
+    }
+  }
+
+  return null;
 }
 
 // ============================================================
@@ -268,29 +280,64 @@ function excelMasReciente(carpeta: string): string {
 // ============================================================
 
 function generar(filePath: string): void {
-  console.log(`\nLeyendo: ${filePath}`);
+  console.log(`\n[Datos] Leyendo Excel más reciente: ${filePath}`);
 
   const df = wideToLongPromedio(filePath);
 
-  // Exportar JSON para React
   const jsonPath = path.join(BASE_DIR, "..", "public", "data", "reporte.json");
   fs.mkdirSync(path.dirname(jsonPath), { recursive: true });
 
-  // pandas.to_json serializa las fechas como epoch en milisegundos
   const registros = df.map((r) => ({ ...r, Fecha: r.Fecha.getTime() }));
   fs.writeFileSync(jsonPath, JSON.stringify(registros, null, 4), "utf-8");
 
-  console.log(`JSON generado: ${jsonPath}`);
-  console.log(`Filas: ${df.length}`);
-  console.log("Materiales:", [...new Set(df.map((r) => r.Material))].sort());
-  console.log("Grupos:", [...new Set(df.map((r) => r.Grupo))].sort());
+  console.log(`[Datos] ✅ reporte.json actualizado exitosamente en: ${jsonPath}`);
+  console.log(`[Datos] Total registros: ${df.length}`);
+  console.log("[Datos] Materiales:", [...new Set(df.map((r) => r.Material))].sort().join(", "));
+}
+
+// ============================================================
+// Ejecución Principal
+// ============================================================
+
+export function ejecutarActualizacion(): void {
+  const jsonPath = path.join(BASE_DIR, "..", "public", "data", "reporte.json");
+
+  // Carpetas candidatas donde buscar el Excel (orden de prioridad)
+  const userProfile = process.env.USERPROFILE || process.env.HOME || "";
+  const carpetasCandidatas = [
+    process.env.CARPETA_EXCEL || "",
+    path.join(userProfile, "OneDrive - CEMEX", "Calidad Agregados Cerro Jardín - 2026 CEJ"),
+    BASE_DIR, // carpeta data_cleaning/ local del proyecto
+  ].filter(Boolean);
+
+  const archivoExcel = obtenerArchivoMasReciente(carpetasCandidatas);
+
+  if (archivoExcel) {
+    generar(archivoExcel);
+  } else {
+    if (fs.existsSync(jsonPath)) {
+      console.warn(
+        "\n[Datos] ⚠️ No se encontró ningún archivo .xlsx nuevo en OneDrive ni en data_cleaning/."
+      );
+      console.warn("[Datos] ℹ️ Se conservará el reporte.json existente.");
+    } else {
+      console.error(
+        "\n[Datos] ❌ No se encontró ningún archivo .xlsx ni existe un reporte.json previo."
+      );
+      process.exit(1);
+    }
+  }
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   try {
-    generar(excelMasReciente(CARPETA_ONEDRIVE));
+    ejecutarActualizacion();
   } catch (e) {
-    console.error("Error:", e);
-    process.exit(1);
+    console.error("[Datos] ❌ Error en la transformación:", e);
+    // Si ya existe reporte.json, no rompemos el build para permitir seguir operando
+    const jsonPath = path.join(BASE_DIR, "..", "public", "data", "reporte.json");
+    if (!fs.existsSync(jsonPath)) {
+      process.exit(1);
+    }
   }
 }
