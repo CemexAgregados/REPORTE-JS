@@ -247,52 +247,152 @@ export function reporteMaterial(
 }
 
 // ============================================================
-// Búsqueda del Excel más reciente (dinámica y agnóstica)
+// Búsqueda de archivos Excel
 // ============================================================
 
-function obtenerArchivoMasReciente(carpetasCandidatas: string[]): string | null {
+function obtenerArchivosExcel(carpetasCandidatas: string[]): string[] {
+  const archivosEncontrados: { ruta: string; mtime: number }[] = [];
+  const nombresVistos = new Set<string>();
+
   for (const carpeta of carpetasCandidatas) {
     if (!carpeta || !fs.existsSync(carpeta)) continue;
 
     try {
       const archivos = fs
         .readdirSync(carpeta)
-        .filter((f) => f.toLowerCase().endsWith(".xlsx") && !f.startsWith("~$"))
-        .map((f) => ({
-          ruta: path.join(carpeta, f),
-          mtime: fs.statSync(path.join(carpeta, f)).mtimeMs,
-        }))
-        .sort((a, b) => b.mtime - a.mtime);
+        .filter((f) => f.toLowerCase().endsWith(".xlsx") && !f.startsWith("~$"));
 
-      if (archivos.length > 0) {
-        return archivos[0].ruta;
+      for (const f of archivos) {
+        // Normalizar nombre unicode para evitar duplicados en nombres con tildes NFD/NFC
+        const normName = f.normalize("NFC").toLowerCase();
+        if (nombresVistos.has(normName)) continue;
+        nombresVistos.add(normName);
+
+        const rutaCompleta = path.join(carpeta, f);
+        archivosEncontrados.push({
+          ruta: rutaCompleta,
+          mtime: fs.statSync(rutaCompleta).mtimeMs,
+        });
       }
     } catch {
       // Ignora errores de permiso o bloqueo y prueba la siguiente carpeta
     }
   }
 
-  return null;
+  // Ordenar de más antiguo a más reciente para que los datos nuevos sobrescriban a los viejos si hay conflicto
+  return archivosEncontrados.sort((a, b) => a.mtime - b.mtime).map((a) => a.ruta);
 }
 
 // ============================================================
-// Generación del JSON
+// Generación y Fusión Incremental del JSON
 // ============================================================
 
-function generar(filePath: string): void {
-  console.log(`\n[Datos] Leyendo Excel más reciente: ${filePath}`);
+interface RegistroJSON {
+  Fecha: number;
+  Material: string;
+  Grupo: string;
+  Propiedad: string;
+  Valor: number | string;
+}
 
-  const df = wideToLongPromedio(filePath);
+interface MetadatosProceso {
+  archivosProcesados: Record<string, number>; // nombre_archivo -> mtimeMs
+}
 
+function generarHistorico(rutasExcel: string[]): void {
   const jsonPath = path.join(BASE_DIR, "..", "public", "data", "reporte.json");
+  const metaPath = path.join(BASE_DIR, "..", "public", "data", ".metadata_excel.json");
   fs.mkdirSync(path.dirname(jsonPath), { recursive: true });
 
-  const registros = df.map((r) => ({ ...r, Fecha: r.Fecha.getTime() }));
-  fs.writeFileSync(jsonPath, JSON.stringify(registros, null, 4), "utf-8");
+  // 1. Cargar metadatos previos de archivos procesados
+  let metadata: MetadatosProceso = { archivosProcesados: {} };
+  if (fs.existsSync(metaPath)) {
+    try {
+      metadata = JSON.parse(fs.readFileSync(metaPath, "utf-8"));
+    } catch {
+      metadata = { archivosProcesados: {} };
+    }
+  }
 
-  console.log(`[Datos] ✅ reporte.json actualizado exitosamente en: ${jsonPath}`);
-  console.log(`[Datos] Total registros: ${df.length}`);
-  console.log("[Datos] Materiales:", [...new Set(df.map((r) => r.Material))].sort().join(", "));
+  // 2. Determinar cuáles archivos son realmente nuevos o fueron modificados
+  const archivosPorProcesar = rutasExcel.filter((filePath) => {
+    const nombre = path.basename(filePath).normalize("NFC");
+    try {
+      const mtimeActual = fs.statSync(filePath).mtimeMs;
+      const mtimePrevio = metadata.archivosProcesados[nombre];
+      return mtimePrevio === undefined || mtimeActual > mtimePrevio;
+    } catch {
+      return true;
+    }
+  });
+
+  // Si ya existe reporte.json y no hay archivos nuevos/modificados, terminamos inmediatamente sin costo de CPU
+  if (archivosPorProcesar.length === 0 && fs.existsSync(jsonPath)) {
+    console.log("[Datos] ⚡ Sin cambios: Todos los archivos Excel ya están en el histórico.");
+    return;
+  }
+
+  console.log(`[Datos] 📂 Archivos nuevos o modificados a procesar: ${archivosPorProcesar.length}`);
+
+  // 3. Cargar histórico existente si existe
+  const registrosMap = new Map<string, RegistroJSON>();
+  if (fs.existsSync(jsonPath)) {
+    try {
+      const previo: RegistroJSON[] = JSON.parse(fs.readFileSync(jsonPath, "utf-8"));
+      for (const reg of previo) {
+        // Clave única: Fecha_Material_Grupo_Propiedad
+        const key = `${reg.Fecha}|${reg.Material}|${reg.Grupo}|${reg.Propiedad}`;
+        registrosMap.set(key, reg);
+      }
+      console.log(`[Datos] ℹ️ Histórico previo cargado: ${registrosMap.size} registros únicos.`);
+    } catch {
+      console.warn("[Datos] ⚠️ No se pudo leer el histórico previo; se generará desde cero.");
+    }
+  }
+
+  // 4. Procesar ÚNICAMENTE los archivos nuevos/modificados e integrar
+  let totalFilasProcesadas = 0;
+  for (const filePath of archivosPorProcesar) {
+    const nombre = path.basename(filePath).normalize("NFC");
+    console.log(`[Datos] Procesando Excel: ${nombre}`);
+    try {
+      const df = wideToLongPromedio(filePath);
+      for (const r of df) {
+        const ms = r.Fecha.getTime();
+        const key = `${ms}|${r.Material}|${r.Grupo}|${r.Propiedad}`;
+        registrosMap.set(key, {
+          Fecha: ms,
+          Material: r.Material,
+          Grupo: r.Grupo,
+          Propiedad: r.Propiedad,
+          Valor: r.Valor,
+        });
+      }
+      totalFilasProcesadas += df.length;
+      // Actualizar mtime en metadatos para este archivo
+      metadata.archivosProcesados[nombre] = fs.statSync(filePath).mtimeMs;
+    } catch (err) {
+      console.error(`[Datos] ❌ Error procesando ${nombre}:`, err);
+    }
+  }
+
+  // 5. Ordenar cronológicamente (Fecha ascendente)
+  const consolidado = Array.from(registrosMap.values()).sort((a, b) => a.Fecha - b.Fecha);
+
+  // 6. Guardar archivo consolidado y metadatos
+  fs.writeFileSync(jsonPath, JSON.stringify(consolidado, null, 4), "utf-8");
+  fs.writeFileSync(metaPath, JSON.stringify(metadata, null, 4), "utf-8");
+
+  console.log(`[Datos] ✅ reporte.json consolidado exitosamente en: ${jsonPath}`);
+  console.log(`[Datos] Filas añadidas/actualizadas en esta corrida: ${totalFilasProcesadas}`);
+  console.log(`[Datos] Total registros consolidados en histórico: ${consolidado.length}`);
+  const materiales = [...new Set(consolidado.map((r) => r.Material))].sort();
+  console.log("[Datos] Materiales:", materiales.join(", "));
+  if (consolidado.length > 0) {
+    const dIni = new Date(consolidado[0].Fecha).toISOString().slice(0, 10);
+    const dFin = new Date(consolidado[consolidado.length - 1].Fecha).toISOString().slice(0, 10);
+    console.log(`[Datos] Cobertura de fechas en histórico: ${dIni} hasta ${dFin}`);
+  }
 }
 
 // ============================================================
@@ -310,14 +410,14 @@ export function ejecutarActualizacion(): void {
     BASE_DIR, // carpeta data_cleaning/ local del proyecto
   ].filter(Boolean);
 
-  const archivoExcel = obtenerArchivoMasReciente(carpetasCandidatas);
+  const archivosExcel = obtenerArchivosExcel(carpetasCandidatas);
 
-  if (archivoExcel) {
-    generar(archivoExcel);
+  if (archivosExcel.length > 0) {
+    generarHistorico(archivosExcel);
   } else {
     if (fs.existsSync(jsonPath)) {
       console.warn(
-        "\n[Datos] ⚠️ No se encontró ningún archivo .xlsx nuevo en OneDrive ni en data_cleaning/."
+        "\n[Datos] ⚠️ No se encontró ningún archivo .xlsx en las rutas candidatas."
       );
       console.warn("[Datos] ℹ️ Se conservará el reporte.json existente.");
     } else {
