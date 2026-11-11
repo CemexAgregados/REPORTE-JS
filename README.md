@@ -1,75 +1,15 @@
-# React + TypeScript + Vite
+# Reporte Dinámico de Calidad — CEMEX Agregados
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web interactiva para la visualización, análisis y generación de informes oficiales de control de calidad de materiales y agregados (áridos).
 
-Currently, two official plugins are available:
+## ¿Qué hace la aplicación?
+- **Filtro interactivo:** Permite seleccionar el material/producto y delimitar rangos de fechas de muestreo.
+- **Cumplimiento normativo:** Presenta datos generales de cantera, especificaciones técnicas (NMX/ASTM) con cálculo automático de promedios del periodo.
+- **Curva y tabla granulométrica:** Gráfica de porcentaje pasante acumulado con bandas de especificación y tabla de tamices con semáforo de cumplimiento.
+- **Tendencias temporales:** Gráfica de serie de tiempo para monitorear hasta dos propiedades de calidad en paralelo.
+- **Exportación oficial:** Generación y descarga directa en PDF tamaño A4 en formato corporativo de dos páginas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
-
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
+> [!NOTE]  
+> Para detalles técnicos de arquitectura, pipeline de datos e integración con plataformas externas, consulta el documento [Handoff_ReporteDinamico.md](Handoff_ReporteDinamico.md).
